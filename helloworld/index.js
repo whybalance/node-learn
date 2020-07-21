@@ -1,4 +1,4 @@
-const helloText = "helloworld3";
+const helloText = "Hello world";
 console.log(helloText);
 
 module.exports = helloText
