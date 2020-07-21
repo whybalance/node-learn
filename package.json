@@ -1,7 +1,6 @@
 {
   "name": "node-learn",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -11,9 +10,9 @@
     "url": "git+https://github.com/winningH/node-learn.git"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/winningH/node-learn/issues"
-  },
-  "homepage": "https://github.com/winningH/node-learn#readme"
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "iconv-lite": "^0.6.2",
+    "request": "^2.88.2"
+  }
 }
